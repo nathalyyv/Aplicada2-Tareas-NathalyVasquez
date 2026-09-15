@@ -1,0 +1,16 @@
+// prisma/schema.prisma
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Habito {
+  id          Int     @id @default(autoincrement())
+  nombre String
+  meta   String
+  registros Json
+}

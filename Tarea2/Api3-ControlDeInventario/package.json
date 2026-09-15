@@ -1,0 +1,28 @@
+{
+  "name": "api3-controldeinventario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "postinstall": "prisma skills sync || exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.10.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "modules": "^0.4.0",
+    "node": "^26.8.1",
+    "pg": "^8.23.0"
+  },
+  "devDependencies": {
+    "@prisma/client": "^7.10.0",
+    "nodemon": "^3.1.14",
+    "prisma": "^7.10.0"
+  }
+}
