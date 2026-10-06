@@ -28,7 +28,7 @@ export default function HomeScreen() {
           value={texto}
           onChangeText={setTexto}
         />
-        <Button title="Mostrar Texto" onPress={mostrarAlerta} color="#e5f878" />
+        <Button title="Mostrar Texto" onPress={mostrarAlerta} color="#c7d33d" />
       </View>
 
       <View style={styles.seccionNavegacion}>
