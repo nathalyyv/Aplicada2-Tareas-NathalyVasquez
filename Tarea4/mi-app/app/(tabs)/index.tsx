@@ -18,7 +18,7 @@ export default function HomeScreen() {
     <View style={styles.contenedorPrincipal}>
       <View style={styles.tarjetaUsuario}>
         <Text style={styles.textoNombre}>Nathaly Vasquez</Text>
-        <Text style={styles.textoCarnet}>Carnet: 2023-0123</Text>
+        <Text style={styles.textoCarnet}>Matricula: 2023-0509</Text>
       </View>
 
       <View style={styles.seccionFormulario}>
@@ -28,14 +28,14 @@ export default function HomeScreen() {
           value={texto}
           onChangeText={setTexto}
         />
-        <Button title="Mostrar Texto" onPress={mostrarAlerta} color="#007AFF" />
+        <Button title="Mostrar Texto" onPress={mostrarAlerta} color="#e5f878" />
       </View>
 
       <View style={styles.seccionNavegacion}>
         <Button
           title="Ir a la lista de elementos"
           onPress={() => router.push('/two')}
-          color="#34C759"
+          color="#ca4ef4"
         />
       </View>
     </View>
